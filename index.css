@@ -1,3 +1,26 @@
-<body 
-style="background-color:powderblue;">
-</body>
+.background {
+  background-color: tan;
+}
+.special-font {
+  font-family: "Lobster", cursive;
+  font-size: 100px;
+}
+
+p {
+  text-align: center;
+}
+
+.alignment {
+  text-align: right;
+}
+.flex-this {
+  flex-direction: column;
+}
+
+.flex-that {
+  flex-wrap: wrap-reverse;
+}
+/* body {
+  font-size: 48px;
+  font-family: cursive;
+} */
