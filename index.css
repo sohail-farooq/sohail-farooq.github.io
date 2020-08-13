@@ -20,6 +20,12 @@ p {
 .flex-that {
   flex-wrap: wrap-reverse;
 }
+
+/* .sport-table {
+  border: 10px;
+  border-collapse: collapse;
+} */
+
 /* body {
   font-size: 48px;
   font-family: cursive;
