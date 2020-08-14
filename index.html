@@ -29,6 +29,11 @@
       margin: auto;
       color: white;
       table-layout: fixed;
+    }
+    /* 
+    p2 {
+      size: 10px;
+    } */
   </style>
 
   <body class="background">
@@ -42,24 +47,24 @@
 
         <nav>
           <ul>
-            <li><a href="#">Sohail</a></li>
-            <li><a href="#">Picture</a></li>
-            <li><a href="#">The Rock</a></li>
-            <li><a href="#">Bio</a></li>
-            <li><a href="#">Table</a></li>
+            <li><a href="#SF">Sohail</a></li>
+            <li><a href="#Picture">Picture</a></li>
+            <li><a href="#The Rock">The Rock</a></li>
+            <li><a href="#Bio">Bio</a></li>
+            <li><a href="#Table">Table</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
     <p>
-      <img src="./Professional pic.jpg" />
+      <img src="./Professional pic.jpg" stylewidth: 50px;/>
     </p>
-    <p class="special-font">
+    <p id="SF" class="special-font">
       Sohail Farooq
     </p>
 
-    <p>Professional Picture</p>
+    <p id="Picture">Professional Picture</p>
     <p>
       <a class="btn-floating btn-large waves-effect waves-light red"
         ><i class="material-icons">add</i></a
@@ -71,7 +76,10 @@
     <p class="alignment">right align this</p>
 
     <p class="flex-this">Flex this</p>
-    <p><img src="https://i.ytimg.com/vi/DRNWocb8aQE/maxresdefault.jpg" /></p>
+    <p id="The Rock">
+      <img src="https://i.ytimg.com/vi/DRNWocb8aQE/maxresdefault.jpg" />
+    </p>
+    <p id="Bio">BIO</p>
     <p class="flex-that">
       Dwayne "The Rock" Johnson was born into a professional wrestling family in
       1972. An injury ended his college football career, so he entered the ring
@@ -90,7 +98,11 @@
     <p></p>
   </body2>
 
-  <table clas>
+  <p id="Table">
+    Table
+  </p>
+
+  <table>
     <!-- style="border: white 5px solid;" -->
     <!-- style="width: fit-content;" -->
     <!-- class="sport-table" -->
