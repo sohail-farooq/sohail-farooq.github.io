@@ -1,5 +1,5 @@
 .background {
-  background-color: tan;
+  background-color: black;
 }
 .special-font {
   font-family: "Lobster", cursive;
@@ -8,6 +8,7 @@
 
 p {
   text-align: center;
+  color: white;
 }
 
 .alignment {
@@ -21,6 +22,82 @@ p {
   flex-wrap: wrap-reverse;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font: 10px;
+  position: absolute;
+}
+
+header {
+  background: gray;
+  height: 4em;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  padding: 10px;
+  position: relative;
+  width: 100px;
+  height: 45px;
+}
+
+nav {
+  float: right;
+  font-family: "Lobster", cursive;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 35px;
+  padding-top: 25px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 100%;
+  font-size: 5px;
+  background-color: #444;
+
+  position: relative;
+  top: 0;
+  width: 0;
+  transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.table {
+  font-size-adjust: inherit;
+  border-color: white;
+}
 /* .sport-table {
   border: 10px;
   border-collapse: collapse;
