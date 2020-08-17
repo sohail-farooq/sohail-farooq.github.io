@@ -96,7 +96,7 @@ nav a:hover::before {
 
 .table {
   font-size-adjust: inherit;
-  border-color: white;
+  border-color: black;
 }
 /* .sport-table {
   border: 10px;
